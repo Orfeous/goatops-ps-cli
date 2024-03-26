@@ -51,3 +51,18 @@ Backups failed...
                  ||       ||
 
 ```
+
+#### In case of an issue with the wisdom retieval, it will just give you a "Meh!"
+
+```
+    ----------
+    <[ Meh! ]>
+    ----------
+            \
+             \
+              )__(
+             '|oo|'________/
+              |__|         |
+               V ||"""""""||
+                 ||       ||
+```
