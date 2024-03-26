@@ -20,6 +20,7 @@ function Get-Wisdom {
                 $cleanLine = $line.Trim();
                 if ($cleanLine.StartsWith("<li>")) { 
                     $cleanLine = $cleanLine.Replace("<li>", "").Replace("</li>", "");
+                    $cleanLine = $cleanLine.Replace("<em>", "").Replace("</em>", "");
                     $wisdomArray += $cleanLine;
                 };
             };
